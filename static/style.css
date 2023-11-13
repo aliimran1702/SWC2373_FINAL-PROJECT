@@ -1,0 +1,33 @@
+body {
+    background: #166e9d;
+    background: -webkit-linear-gradient(to right, rgb(22, 110, 157), rgb(18, 34, 63));
+    background: linear-gradient(to right, rgb(103, 178, 218), rgb(18, 34, 63));
+}
+
+#root {
+            width: 100vw;
+            height: 100vh;
+        }
+
+        #root video {
+            outline: none;
+        }
+
+
+        .back-to-dashboard {
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+        }
+
+        .back-to-dashboard button {
+            padding: 10px 20px;
+            background-color: #ffffff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        body {
+            overflow: hidden;
+        }
